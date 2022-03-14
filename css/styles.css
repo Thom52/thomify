@@ -1,3 +1,7 @@
-body {
-  background: dodgerblue;
+:root {
+  --colour_primary: #2583ff;
+  --colour_secondary: #00d9ff;
+  --colour_accent: #ff3400;
+  --colour_headings: #1b0760;
+  --colour_body_text: #918ca4;
 }
