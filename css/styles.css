@@ -151,3 +151,24 @@ a {
     padding-left: 0rem;
   }
 }
+
+/* icons ------------------ */
+
+.icon {
+  width: 40px;
+  height: 40px;
+}
+
+.icon--primary {
+  fill: var(--colour_primary);
+}
+
+.icon-container {
+  background: #f3f9f9;
+  width: 64px;
+  height: 64px;
+  border-radius: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
