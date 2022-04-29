@@ -30,7 +30,7 @@ body {
   font-family: Inter, Arial, Helvetica, sans-serif;
   color: var(--colour_body_text);
   line-height: 1.5;
-  font-size: 2.4rem;
+  font-size: 2rem;
 }
 
 h1,
@@ -213,7 +213,7 @@ a {
   font-weight: 600;
   margin: 1rem 0;
   outline: 0;
-  padding: 2rem 3rem;
+  padding: 2rem 4vw;
   text-align: center;
   text-transform: uppercase;
   white-space: nowrap;
@@ -304,6 +304,7 @@ a {
 .input-group .input {
   border: 0;
   flex-grow: 1;
+  width: 0;
 }
 
 .input-group .btn {
@@ -326,7 +327,7 @@ a {
 
 .card__header,
 .card__body {
-  padding: 2rem 3rem;
+  padding: 2rem 7%;
 }
 
 .card--primary .card__header {
@@ -378,8 +379,7 @@ a {
 }
 
 .plan .list__item {
-  letter-spacing: 1px;
-  margin: 2rem;
+  margin-bottom: 2rem;
 }
 
 .plan--popular {
@@ -766,11 +766,12 @@ a {
   display: grid;
   font-size: 2rem;
   font-weight: 600;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 6rem);
   justify-items: center;
   margin: 0 auto;
   max-width: 700px;
+  color: var(--colour_headings);
 }
 
 @media screen and (min-width: 768px) {
@@ -873,7 +874,7 @@ a {
 
 .footer__logo img {
   width: 100%;
-  max-width: 230px;
+  max-width: 29630px;
 }
 
 .footer__copyright {
@@ -914,6 +915,12 @@ a {
   }
 
   .footer .collapsible__content {
-    font-size: 1.5fem;
+    font-size: 1.5rem;
   }
+}
+
+/* Sign-up Callout ------------------- */
+
+.callout-signup {
+  transform: translateY(5rem);
 }
