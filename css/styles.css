@@ -1,3 +1,5 @@
+@import "./normalize.css";
+
 :root {
   --colour_primary: #2583ff;
   --colour_secondary: #00d9ff;
